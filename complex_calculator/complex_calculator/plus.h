@@ -5,6 +5,6 @@ class Plus
 private:
 	complex data;
 public:
-	Plus(double x, double y);
+	Plus(pair<double, double> x);
 	pair<double, double> calculate(Plus data);
 };

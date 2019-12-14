@@ -1,8 +1,7 @@
 #include"plus.h"
-Plus::Plus(double x, double y)
+Plus::Plus(pair<double, double> x) :data(x)
 {
-	this->data.real = x;
-	this->data.image = y;
+	
 }
 pair<double, double> Plus::calculate(Plus data)
 {
