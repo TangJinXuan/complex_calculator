@@ -5,7 +5,6 @@ class Minus
 private:
 	complex data;
 public:
-	
-	Minus(double x, double y);
+	Minus(pair<double,double> x);
 	pair<double, double> calculate(Minus data);
 };
