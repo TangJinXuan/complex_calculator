@@ -5,6 +5,6 @@ class multiply
 private:
 	complex data;
 public:
-	multiply(double x, double y);
+	multiply(pair<double, double> x);
 	pair<double, double> calculate(multiply data);
 };
