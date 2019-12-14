@@ -5,6 +5,6 @@ class divide
 private:
 	complex data;
 public:
-	divide(double x, double y);
+	divide(pair<double, double> x);
 	pair<double,double> calculate(divide data);
 };

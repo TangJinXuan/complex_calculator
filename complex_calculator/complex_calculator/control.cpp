@@ -12,6 +12,6 @@ void calculator::circulation()
 	res1 = Plus(make_pair(a1, a2)).calculate(Plus(make_pair(b1, b2)));
 	res2 = Minus(make_pair(a1, a2)).calculate(Minus(make_pair(b1, b2)));
 	res3 = multiply(make_pair(a1, a2)).calculate(multiply(make_pair(a1, a2)));
-	res4 = divide(a1, a2).calculate(divide(b1, b2));
+	res4 = divide(make_pair(a1, a2)).calculate(divide(make_pair(b1, b2)));
 
 }

@@ -1,8 +1,7 @@
 #include"divide.h"
-divide::divide(double x, double y)
+divide::divide(pair<double, double> x) :data(x)
 {
-	this->data.real = x;
-	this->data.image = y;
+	
 }
 pair<double, double> divide::calculate(divide data)
 {
